@@ -1,18 +1,13 @@
 {
-    "functions": {
-      "src/api/generate-lesson.ts": {
-        "runtime": "nodejs18.x"
-      }
-    },
     "crons": [
       {
         "path": "/api/generate-lesson",
         "schedule": "0 8 * * *"
       }
     ],
-    "build": {
-      "env": {
-        "NODE_OPTIONS": "--enable-source-maps"
+    "functions": {
+      "src/api/generate-lesson.ts": {
+        "runtime": "nodejs20"
       }
     }
   }
