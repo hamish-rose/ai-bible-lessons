@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "lib": ["ES2020"],
+      "strict": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": false,
+      "outDir": ".vercel_build_output/functions",
+      "types": ["node"]
+    },
+    "include": ["src/**/*", "vercel.json"],
+    "exclude": ["node_modules"]
+  }

@@ -1,0 +1,19 @@
+{
+  "name": "ai-bible-lessons",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "node-fetch": "^3.3.2",
+    "resend": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@vercel/node": "^5.5.0",
+    "typescript": "^5.5.0"
+  }
+}
